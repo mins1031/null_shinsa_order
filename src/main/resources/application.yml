@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: local
+    include:
+      - db
+      - kafka
+#      - redis
+#      - aws
+#      - security
+#      - email
